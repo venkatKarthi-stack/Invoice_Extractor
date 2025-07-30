@@ -1,6 +1,4 @@
 import streamlit as st
-from PIL import Image
-import pytesseract
 from dotenv import load_dotenv
 import os
 from openai import OpenAI
@@ -9,7 +7,6 @@ from imap_tools import MailBox
 from azure.storage.blob import BlobServiceClient, ContentSettings
 import io
 import pandas as pd
-import json
 from datetime import datetime
 import requests
 import fitz  # PyMuPDF
